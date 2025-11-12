@@ -68,25 +68,25 @@
 
 
 
-        const counterEl = document.querySelector("#counter")
-        const incrementEl = document.querySelector("#increment")
-        const decrement = document.querySelector("#decrement")
+        // const counterEl = document.querySelector("#counter")
+        // const incrementEl = document.querySelector("#increment")
+        // const decrement = document.querySelector("#decrement")
 
 
-        incrementEl.addEventListener("click", function(){
-            let currenValue = Number(counterEl.textContent)
-            counterEl.textContent = currenValue + 1;
-        })
+        // incrementEl.addEventListener("click", function(){
+        //     let currenValue = Number(counterEl.textContent)
+        //     counterEl.textContent = currenValue + 1;
+        // })
 
-        decrement.addEventListener("click", function(){
-            let currentValue = Number(counterEl.textContent)
-            if(currentValue > 0){
-                counterEl.textContent = currentValue - 1
-            }
-        })
+        // decrement.addEventListener("click", function(){
+        //     let currentValue = Number(counterEl.textContent)
+        //     if(currentValue > 0){
+        //         counterEl.textContent = currentValue - 1
+        //     }
+        // })
 
 
-
+    
 
 
 
